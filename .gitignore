@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.token
+secrets/
+credentials/
+
+# Local runtime state and personal data
+data/memory.db
+data/memory.db-*
+data/installed_apps.json
+data/knowledge/*
+!data/knowledge/.gitkeep
+data/backups/*
+!data/backups/.gitkeep
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated code and local artifacts
+generated_code/*
+!generated_code/.gitkeep
+*.log
+*.tmp
+*.bak
+
+# Local speech and language models
+vosk-model-*/
+*.gguf
+*.safetensors
+*.bin
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.zip
+*.tar.gz
