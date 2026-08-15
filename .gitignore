@@ -45,6 +45,9 @@ generated_code/*
 
 # Local speech and language models
 vosk-model-*/
+voices/*
+!voices/.gitkeep
+*.onnx
 *.gguf
 *.safetensors
 *.bin
